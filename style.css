@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eee;
+}
+.container {
+  display: flex;
+  width: 70%;
+  gap: 20px;
+  margin-inline: auto;
+}
+.right-column {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.left-column {
+  width: 30%;
+}
+.image-box img {
+  width: 100%;
+  border-radius: 10px;
+}
+.image-box {
+  position: relative;
+}
+.image-box .name {
+  position: absolute;
+  bottom: 40px;
+  left: 75px;
+  color: #fff;
+}
+.contact-info ul,
+.skills ul,
+.language ul {
+  list-style: none;
+}
+.icon-text {
+  display: flex;
+  gap: 20px;
+}
+i {
+  color: teal;
+}
+p {
+  letter-spacing: 1px;
+}
+.prograss-bar {
+  background-color: #ccc;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.prograss-bar .prograss {
+  background-color: teal;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+.card {
+  background-color: white;
+  box-shadow: 4px 4px 4px #ccc;
+}
+.project-info {
+  margin: 10px;
+}
+.tech {
+  font-weight: bold;
+}
+.text {
+  margin: 10px;
+}
+.deg {
+  margin: 10px;
+}
+.dag {
+  width: 40%;
+  background-color: aqua;
+}
+.year {
+  margin-left: 170px;
+  font-weight: lighter;
+  font-size: medium;
+}
+.yr {
+  margin-left: 90px;
+  font-weight: lighter;
+  font-size: medium;
+}
+.schl {
+  margin-left: 10px;
+}
+.ic {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+ul li {
+  margin-left: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.prsnl {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+#btmm {
+  padding-bottom: 20px;
+}
